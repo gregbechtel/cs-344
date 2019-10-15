@@ -1,4 +1,5 @@
 #!/bin/bash
+#comment
 trap 'rm -f temp*; echo "Interupt recieved. Clearing temp files." 1>&2; exit 1' INT HUP TERM
 dims() {
     #let file be a string containing data from the first argument passed if present,
